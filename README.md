@@ -4,6 +4,7 @@
 ## Assembly
 
 - [AVR Assembly](http://www.avr-asm-tutorial.net/avr_en/beginner/index.html)
+- [ELF Tutorial](http://www.cirosantilli.com/elf-hello-world/)
 
 ## Links
 
