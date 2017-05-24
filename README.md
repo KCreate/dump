@@ -14,6 +14,12 @@
 
 - [Writing a BASIC compiler](https://people.eecs.berkeley.edu/~bh/pdf/v2ch06.pdf)
 - [An Incremental Approach to Compiler Construction](http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf)
+
+> Compilers are perceived to be magical artifacts, carefully crafted
+by the wizards, and unfathomable by the mere mortals. Books on
+compilers are better described as wizard-talk: written by and for
+a clique of all-knowing practitioners. ~Abdulaziz Ghuloum
+
 - [LISP to x86-64 compiler](https://github.com/l3kn/lisp-compiler)
 - [LISP to LLVM-IR compiler](https://github.com/l3kn/lisp-compiler-llvm)
 - [Tutorial: My first LLVM compiler](http://www.wilfred.me.uk/blog/2015/02/21/my-first-llvm-compiler/)
