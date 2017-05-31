@@ -28,3 +28,4 @@ a clique of all-knowing practitioners. ~Abdulaziz Ghuloum
 - [Tutorial: My first LLVM compiler](http://www.wilfred.me.uk/blog/2015/02/21/my-first-llvm-compiler/)
 - [Understanding C++ Compilation](https://www.toptal.com/c-plus-plus/c-plus-plus-understanding-compilation)
 - [Compiler Construction Cambridge University](https://www.cl.cam.ac.uk/teaching/0708/CompConstr/slides07.pdf)
+- [Implementing Closures](http://hokstad.com/how-to-implement-closures)
