@@ -1,5 +1,6 @@
 ## OS Dev
 - [OS Dev on brokenthorn.com](http://www.brokenthorn.com/Resources/OSDev0.html)
+- [Linux Inside](https://www.gitbook.com/book/0xax/linux-insides/details)
 
 ## Assembly
 
