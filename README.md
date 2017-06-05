@@ -29,3 +29,7 @@ a clique of all-knowing practitioners. ~Abdulaziz Ghuloum
 - [Understanding C++ Compilation](https://www.toptal.com/c-plus-plus/c-plus-plus-understanding-compilation)
 - [Compiler Construction Cambridge University](https://www.cl.cam.ac.uk/teaching/0708/CompConstr/slides07.pdf)
 - [Implementing Closures](http://hokstad.com/how-to-implement-closures)
+
+## Virtual Machines
+
+- [Sol - A sunny little virtual machine](https://rsms.me/sol-a-sunny-little-virtual-machine)
