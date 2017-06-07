@@ -29,6 +29,7 @@ a clique of all-knowing practitioners. ~Abdulaziz Ghuloum
 - [Understanding C++ Compilation](https://www.toptal.com/c-plus-plus/c-plus-plus-understanding-compilation)
 - [Compiler Construction Cambridge University](https://www.cl.cam.ac.uk/teaching/0708/CompConstr/slides07.pdf)
 - [Implementing Closures](http://hokstad.com/how-to-implement-closures)
+- [Grokking V8 closures for fun](http://mrale.ph/blog/2012/09/23/grokking-v8-closures-for-fun.html)
 
 ## Virtual Machines
 
