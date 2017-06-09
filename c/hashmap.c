@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define BUCKET_COUNT 4
+#define BUCKET_COUNT 8
 
 typedef struct hash_entry hash_entry;
 typedef struct hash_bucket hash_bucket;
@@ -142,6 +142,33 @@ int hash_read(hash* hash, char* key, int* out) {
   return 0;
 }
 
+/*
+ * Tries to delete a given key from a hash
+ * */
+void hash_delete(hash* hash, char* key) {
+  int bucket_index = hash_generate_hash(key);
+  hash_bucket* bucket = hash->buckets + bucket_index;
+
+  hash_entry* previous = bucket->first;
+  hash_entry* current = bucket->first;
+
+  while (current) {
+
+    if (strcmp(current->key, key) == 0) {
+      previous->next = current->next;
+
+      if (bucket->first == current) bucket->first = current->next;
+      if (bucket->last == current) bucket->last = previous;
+      if (bucket->first == NULL) bucket->last = NULL;
+
+      break;
+    }
+
+    previous = current;
+    current = current->next;
+  }
+}
+
 int main() {
 
   hash* myhash = hash_create();
@@ -154,8 +181,19 @@ int main() {
   hash_write(myhash, "fabrice", 75);
   hash_write(myhash, "fabian", 75);
 
+  hash_delete(myhash, "fabrice");
+  hash_delete(myhash, "pascal");
+  hash_delete(myhash, "markus");
+  hash_delete(myhash, "leonard");
+  hash_delete(myhash, "igor");
+
   for (int i = 0; i < BUCKET_COUNT; i++) {
-    printf("bucket %02d: %p\n", i, myhash->buckets[i].first);
+    printf(
+      "bucket %02d: (%p - %p)\n",
+      i,
+      myhash->buckets[i].first,
+      myhash->buckets[i].last
+    );
 
     hash_entry* entry = myhash->buckets[i].first;
     while (entry) {
@@ -164,18 +202,6 @@ int main() {
       entry = entry->next;
     }
   }
-
-  int a = 0, b = 0, c = 0, d = 0;
-
-  hash_read(myhash, "peter", &a);
-  hash_read(myhash, "markus", &b);
-  hash_read(myhash, "pascal", &c);
-  hash_read(myhash, "leonard", &d);
-
-  printf("peter = %d\n", a);
-  printf("markus = %d\n", b);
-  printf("pascal = %d\n", c);
-  printf("leonard = %d\n", d);
 
   return 0;
 }
