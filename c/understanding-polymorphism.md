@@ -36,6 +36,8 @@ int main() {
 
 # Produced assembly (x86_64 gcc 7.1, unoptimized code)
 
+# TODO: Add some comments explaining all this
+
 ```asm
 std::ios_base::Init::Init()@plt-0x10:
   push   QWORD PTR [rip+0x200a02]        # 601008 <_GLOBAL_OFFSET_TABLE_+0x8>
