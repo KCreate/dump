@@ -33,6 +33,7 @@ a clique of all-knowing practitioners. ~Abdulaziz Ghuloum
 - [Grokking V8 closures for fun](http://mrale.ph/blog/2012/09/23/grokking-v8-closures-for-fun.html)
 - [Yet another Brainfuck compiler](https://github.com/cameronswinoga/yabfc/wiki/Generating-executable-files-from-scratch)
 - [Ruby: How Closures actually work](http://siawyoung.com/coding/ruby/closures.html)
+- [Writing a compiler in Ruby, bottom up ~ Vidar Hokstad](http://hokstad.com/compiler)
 
 ## Virtual Machines
 
