@@ -35,6 +35,13 @@ a clique of all-knowing practitioners. ~Abdulaziz Ghuloum
 - [Ruby: How Closures actually work](http://siawyoung.com/coding/ruby/closures.html)
 - [Writing a compiler in Ruby, bottom up ~ Vidar Hokstad](http://hokstad.com/compiler)
 
+## String handling in dynamic languages
+- [Python string Interning](http://guilload.com/python-string-interning/)
+- [Embedded strings in ruby](http://patshaughnessy.net/2012/1/4/never-create-ruby-strings-longer-than-23-characters)
+- [How Ruby shares string values](http://patshaughnessy.net/2012/1/18/seeing-double-how-ruby-shares-string-values)
+- [Python string objects implementation](http://www.laurentluce.com/posts/python-string-objects-implementation/)
+- [Ruby Hacking Guide: Objects](https://ruby-hacking-guide.github.io/object.html)
+
 ## Virtual Machines
 
 - [Sol - A sunny little virtual machine](https://rsms.me/sol-a-sunny-little-virtual-machine)
