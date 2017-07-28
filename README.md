@@ -41,6 +41,7 @@ a clique of all-knowing practitioners. ~Abdulaziz Ghuloum
 - [How Ruby shares string values](http://patshaughnessy.net/2012/1/18/seeing-double-how-ruby-shares-string-values)
 - [Python string objects implementation](http://www.laurentluce.com/posts/python-string-objects-implementation/)
 - [Ruby Hacking Guide: Objects](https://ruby-hacking-guide.github.io/object.html)
+- [UTF-8 strings inside Crystal](https://github.com/crystal-lang/crystal/blob/master/src/string.cr)
 
 ## Virtual Machines
 
